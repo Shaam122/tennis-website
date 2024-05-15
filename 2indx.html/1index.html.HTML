@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tennis Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- General: Index Page -->
+  <header>
+    <h1>Welcome to Our Tennis Website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="basics.html">Tennis Basics</a></li>
+        <li><a href="equipment.html">Tennis Equipment</a></li>
+        <li><a href="players.html">Famous Players</a></li>
+        <li><a href="tournaments.html">Tournaments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Image -->
+    <section class="image-section">
+      <img src="tennis_image.jpg" alt="Tennis Player">
+      <p>Caption: A professional tennis player in action.</p>
+    </section>
+    
+    <!-- Lists -->
+    <section class="lists-section">
+      <div class="simple-list">
+        <h2>Tennis Terms</h2>
+        <ul>
+          <li>Serve</li>
+          <li>Forehand</li>
+          <li>Backhand</li>
+          <li>Volley</li>
+        </ul>
+      </div>
+      <div class="complex-list">
+        <h2>Improving Your Game</h2>
+        <ol>
+          <li>Practice regularly</li>
+          <li>Work on your footwork</li>
+          <li>Study your opponents</li>
+          <li>Stay mentally focused</li>
+        </ol>
+      </div>
+    </section>
+    
+    <!-- Tables -->
+    <section class="tables-section">
+      <h2>Tennis Tournaments</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tournament</th>
+            <th>Location</th>
+            <th>Surface</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Australian Open</td>
+            <td>Melbourne, Australia</td>
+            <td>Hard</td>
+          </tr>
+          <tr>
+            <td>French Open</td>
+            <td>Paris, France</td>
+            <td>Clay</td>
+          </tr>
+          <tr>
+            <td>Wimbledon</td>
+            <td>London, UK</td>
+            <td>Grass</td>
+          </tr>
+          <tr>
+            <td>US Open</td>
+            <td>New York, USA</td>
+            <td>Hard</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+    <!-- Form -->
+    <section class="form-section">
+      <h2>Subscribe for Tennis Updates</h2>
+      <form action="subscribe.php" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="topics">Topics of Interest:</label>
+        <select id="topics" name="topics">
+          <option value="news">Latest Tennis News</option>
+          <option value="techniques">Tennis Techniques</option>
+          <option value="tournaments">Upcoming Tournaments</option>
+        </select>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    
+    <!-- Links -->
+    <section class="links-section">
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://www.atptour.com/">ATP Tour</a></li>
+        <li><a href="https://www.wtatennis.com/">WTA Tour</a></li>
+        <li><a href="https://www.tennis.com/">Tennis.com</a></li>
+      </ul>
+    </section>
+    
+    <!-- Multimedia -->
+    <section class="multimedia-section">
+      <h2>Tennis Highlights</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Tennis Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

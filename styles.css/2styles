@@ -1,0 +1,127 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+/* Image Section */
+.image-section {
+  text-align: center;
+}
+
+.image-section img {
+  max-width: 100%;
+}
+
+/* Lists Section */
+.lists-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lists-section div {
+  flex-basis: 45%;
+}
+
+/* Tables Section */
+.tables-section {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Form Section */
+.form-section {
+  margin-top: 2rem;
+}
+
+label, input, select, button {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Links Section */
+.links-section {
+  margin-top: 2rem;
+}
+
+.links-section ul {
+  list-style-type: none;
+}
+
+.links-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.links-section ul li a {
+  color: #333;
+}
+
+/* Multimedia Section */
+.multimedia-section {
+  margin-top: 2rem;
+  text-align: center;
+}
